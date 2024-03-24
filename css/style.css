@@ -1,0 +1,17 @@
+@import url(./bootstrap@5.3.3.css);
+
+:root {
+  /* Colors */
+  ---bg-col-green: #1aa17980;
+}
+
+.st-col {
+  height: 120px;
+  background: var(---bg-col-green);
+}
+.st-col:hover {
+  background: var(--bs-border-color-translucent);
+}
+.container .col-12 .st-col {
+  height: 160px;
+}
